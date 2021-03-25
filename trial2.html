@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <h1> Enter the details to Register</h1>
+    <form action="trial.html" method="POST">
+        <div>
+      <label for="">First Name</label>
+        <input type="text" name="fname"  required placeholder="Enter your first name">
+    </div>
+<br>
+<label for="">Please Select Gender</label>
+<br>
+  MALE <input type="radio" name="gender" value="male"><br>
+  FEMALE <input type="radio" name="gender" value="female">
+<br>
+<label for="">Select state</label>
+<br>
+ <select name="State">
+<option value="kl">Kerala</option>
+<option value="Go">Goa</option>
+<option value="Tl">TamilNadu</option>
+ </select>
+ <br>
+ <label for="">Select the date of Login</label>
+ <input type="date" name="d" value="dd/mm/yy">
+ <br>
+ <label for="">Upload your resume</label>
+<input type="file" name="f" value="Resume">
+<br>
+<label for="">Select your qualification</label><br>
+ MCA <input type="checkbox" value="MCA">
+ <br>
+ MBA <input type="checkbox" value="MBA"><br>
+ MCOM <input type="checkbox" value="MCOM">
+<br>
+<input type="submit" name="but" value="Register">
+    </form>
+</body>
+</html>
